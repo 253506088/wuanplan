@@ -1,0 +1,61 @@
+2018-9-21 20:53:37[ERROR](UserDaoImpl.java:56) 新增用户出错!
+java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:2897)
+	at com.mysql.jdbc.PreparedStatement.setString(PreparedStatement.java:3730)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3130)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.setObject(NewProxyPreparedStatement.java:878)
+	at www.wuanplan.com.database.toll.DataBaseTool.execute(DataBaseTool.java:110)
+	at www.wuanplan.com.database.impl.UserDaoImpl.addUser(UserDaoImpl.java:49)
+	at www.wuanplan.com.tool.test.main(test.java:10)
+2018-9-21 21:00:56[ERROR](UserDaoImpl.java:56) 新增用户出错!
+java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:2897)
+	at com.mysql.jdbc.PreparedStatement.setString(PreparedStatement.java:3730)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3130)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.setObject(NewProxyPreparedStatement.java:878)
+	at www.wuanplan.com.database.toll.DataBaseTool.execute(DataBaseTool.java:110)
+	at www.wuanplan.com.database.impl.UserDaoImpl.addUser(UserDaoImpl.java:49)
+	at www.wuanplan.com.tool.test.main(test.java:10)
+2018-9-21 21:01:49[ERROR](UserDaoImpl.java:56) 新增用户出错!
+java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:2897)
+	at com.mysql.jdbc.PreparedStatement.setString(PreparedStatement.java:3730)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3130)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.setObject(NewProxyPreparedStatement.java:878)
+	at www.wuanplan.com.database.toll.DataBaseTool.execute(DataBaseTool.java:110)
+	at www.wuanplan.com.database.impl.UserDaoImpl.addUser(UserDaoImpl.java:49)
+	at www.wuanplan.com.tool.test.main(test.java:10)
+2018-9-21 21:38:14[ERROR](UserDaoImpl.java:46) 修改用户出错!
+java.lang.NullPointerException
+	at www.wuanplan.com.database.toll.DataBaseTool.execute(DataBaseTool.java:89)
+	at www.wuanplan.com.database.impl.UserDaoImpl.count(UserDaoImpl.java:41)
+	at www.wuanplan.com.tool.test.main(test.java:12)
+2018-9-21 21:38:33[ERROR](UserDaoImpl.java:46) 修改用户出错!
+java.lang.NullPointerException
+	at www.wuanplan.com.database.toll.DataBaseTool.execute(DataBaseTool.java:89)
+	at www.wuanplan.com.database.impl.UserDaoImpl.count(UserDaoImpl.java:41)
+	at www.wuanplan.com.tool.test.main(test.java:12)
+2018-9-21 21:38:46[ERROR](UserDaoImpl.java:46) 修改用户出错!
+java.lang.NullPointerException
+	at www.wuanplan.com.database.toll.DataBaseTool.execute(DataBaseTool.java:89)
+	at www.wuanplan.com.database.impl.UserDaoImpl.count(UserDaoImpl.java:41)
+	at www.wuanplan.com.tool.test.main(test.java:12)
+2018-9-21 21:41:46[ERROR](UserDaoImpl.java:46) 修改用户出错!
+java.sql.SQLException: Column Index out of range, 0 < 1.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSet.checkColumnBounds(ResultSet.java:761)
+	at com.mysql.jdbc.ResultSet.getInt(ResultSet.java:2702)
+	at com.mchange.v2.c3p0.impl.NewProxyResultSet.getInt(NewProxyResultSet.java:425)
+	at www.wuanplan.com.database.impl.UserDaoImpl.count(UserDaoImpl.java:43)
+	at www.wuanplan.com.tool.test.main(test.java:12)
